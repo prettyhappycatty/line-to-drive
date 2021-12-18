@@ -147,7 +147,6 @@ function sendMessage(reply_token, text){
 
 // 年ごとのフォルダ
 function getFolderPathOfYear(year){
-  year = "2021"
   folder = DriveApp.getFolderById(ROOT_FOLDER_ID);
   childFolders = folder.getFolders();
 
